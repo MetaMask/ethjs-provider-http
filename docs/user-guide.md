@@ -1,18 +1,18 @@
 # User Guide
 
-All information for developers using `ethjs-provider-http` should consult this document.
+All information for developers using `@metamask/ethjs-provider-http` should consult this document.
 
 ## Install
 
 ```
-npm install --save ethjs-provider-http
+npm install --save @metamask/ethjs-provider-http
 ```
 
 ## Usage
 
 ```js
-const HttpProvider = require('ethjs-provider-http');
-const Eth = require('ethjs-query');
+const HttpProvider = require('@metamask/ethjs-provider-http');
+const Eth = require('@metamask/ethjs-query');
 const eth = new Eth(new HttpProvider('https://ropsten.infura.io'));
 
 eth.getBlockByNumber(45039930, cb);
@@ -37,8 +37,8 @@ Intakes a `provider` URL specified as a string, and optionally the `timeout` spe
 Result `HttpProvider` **Object**.
 
 ```js
-const HttpProvider = require('ethjs-provider-http');
-const Eth = require('ethjs-query');
+const HttpProvider = require('@metamask/ethjs-provider-http');
+const Eth = require('@metamask/ethjs-query');
 const eth = new Eth(new HttpProvider('http://localhost:8545'));
 
 eth.accounts((err, result) => {
@@ -66,7 +66,7 @@ https://polyfill.io/
 
 ```
 
-Hash: 19a6a35da5b5795d31b4                                                         
+Hash: 19a6a35da5b5795d31b4
 Version: webpack 2.1.0-beta.15
 Time: 777ms
                      Asset     Size  Chunks             Chunk Names
@@ -75,7 +75,7 @@ ethjs-provider-http.js.map   6.1 kB       0  [emitted]  main
    [2] multi main 28 bytes {0} [built]
     + 2 hidden modules
 
-Hash: 04c4c298f25fbf6d2da8                                                         
+Hash: 04c4c298f25fbf6d2da8
 Version: webpack 2.1.0-beta.15
 Time: 733ms
                      Asset     Size  Chunks             Chunk Names

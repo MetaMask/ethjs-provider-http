@@ -1,17 +1,17 @@
 # Developer Guide
 
-All information regarding contributing to and progressing `ethjs-provider-http` module can be found in this document.
+All information regarding contributing to and progressing `@metamask/ethjs-provider-http` module can be found in this document.
 
 ## Install
 
 ```
-npm install --save ethjs-provider-http
+npm install --save @metamask/ethjs-provider-http
 ```
 
 ## Install from Source
 
 ```
-git clone http://github.com/ethjs/ethjs-provider-http
+git clone http://github.com/MetaMask/ethjs-provider-http
 npm install
 ```
 
@@ -75,8 +75,6 @@ Note, the `./lib` dir is generated from the babel build staging. `./coverage` is
 
 ## NPM Practice
 
-Across all `ethjs-` repos, we enforce version hardening (i.e. "0.0.3" not "^0.0.3"). We want to reduce potential hazardous install changes from dependancies as much as possible to ensure package preformace, testing, security and design. Please make sure all your commits and PR's are version hardend if you are installing or removing new packages.
-
 After build staging it is the `lib` folder which actually gets published to NPM. This allows for easy inclusion into other modules which may not use babel transpiling or which may not support es2015+.
 
 ## NPM/Node Version Requirements
@@ -93,7 +91,7 @@ All relevant changes are notated in the `CHANGELOG.md` file, moniter this file f
 
 ## Contributing
 
-Please help better the ecosystem by submitting issues and pull requests. We need all the help we can get to build the absolute best linting standards and utilities. We follow the AirBNB linting standard. Please read more about contributing to `ethjs-provider-http` in the `.github/CONTRIBUTING.md`.
+Please help better the ecosystem by submitting issues and pull requests. We need all the help we can get to build the absolute best linting standards and utilities. We follow the AirBNB linting standard. Please read more about contributing to `@metamask/ethjs-provider-http` in the `.github/CONTRIBUTING.md`.
 
 ## Licence
 
