@@ -7,24 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [0.2.0]
-### Uncategorized
-- chore: format changelog
-- chore: add .nvmrc set to v12
-- devDeps: remove unused ethjs-contract
-- npm audit fix; npm dedupe
-- devDeps: update mocha@3.1.2 -> ^6.2.3
-- devDeps: cross-env@1.0.7->6.0.3
-- rename package from ethjs-provider-http to @metamask/ethjs-provider-http
-- deps: xhr2@0.1.3 -> 0.2.1
-- npm v5 compat: rename prepublish script to prepare
-- deprecate nodejs <8.17, npm<6
-- devDeps: update web3@0.17.0-beta -> 0.20.7
-- devDeps/test: ethereumjs-testrpc->ganache-cli
-- devDeps: remove legacy check-es3-syntax-cli
-- Remove Travis and coveralls.io integrations
-- ci: Add GitHub Actions workflows
-- update dist
-- add package-lock.json
+### Changed
+- **BREAKING**: Deprecate nodejs <8.17, npm<6 ([#11](https://github.com/MetaMask/ethjs-provider-http/pull/11))
+- **BREAKING**: Rename package from `ethjs-provider-http` to `@metamask/ethjs-provider-http` ([#10](https://github.com/MetaMask/ethjs-provider-http/pull/10))
+- Bump `xhr2` from 0.1.3 to 0.2.1 ([#7](https://github.com/MetaMask/ethjs-provider-http/pull/7))
 
 ## [0.1.6]
 ### Changed
