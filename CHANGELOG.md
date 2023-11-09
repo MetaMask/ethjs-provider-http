@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [0.3.0]
-### Uncategorized
+### Changed
 - bump devDependencies ([#16](https://github.com/MetaMask/ethjs-provider-http/pull/16))
 - devDeps: web3@0.20.7->1.2.6 ([#15](https://github.com/MetaMask/ethjs-provider-http/pull/15))
 
