@@ -32,7 +32,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: npm i -g npm@10
       - run: npm i
       - run: npm run build
       - name: Require clean working directory
@@ -73,7 +72,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: npm i -g npm@10
       - run: npm i
       - run: npm run test
       - name: Require clean working directory
